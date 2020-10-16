@@ -32,7 +32,8 @@ public class Constants {
     public static final String PROVIDER = "com.tobiasstrom.contentprovidermeetings";
     public static final int CONTAKT = 1;
     public static final int MCONTACT = 2;
-    public static final Uri CONTENT_URI = Uri.parse("content://" + PROVIDER + "/contact");
+    public static final String CONTENT_URI_STRING = "content://" + PROVIDER + "/contact/";
+    public static final Uri CONTENT_URI = Uri.parse("content://" + PROVIDER + "/contact/");
     public static final UriMatcher uriMatcher;
     static {
         uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);

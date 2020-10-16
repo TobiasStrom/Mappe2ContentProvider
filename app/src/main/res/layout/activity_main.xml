@@ -6,10 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.tobiasstrom.mappe2contentprovider.MainActivity">
-    <EditText android:id="@+id/tittel"
+
+    <EditText
+        android:id="@+id/tittel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Kontakt ID: 1" />
+        android:ems="10"
+        android:inputType="number" />
+
     <Button
         android:id="@+id/getAllContact"
         android:layout_width="match_parent"
@@ -26,4 +30,5 @@
     <TextView android:id="@+id/showContact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
 </LinearLayout>
